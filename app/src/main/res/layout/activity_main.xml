@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity" android:gravity="center">
+
+    <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker" android:calendarTextColor="#003826C4"
+            android:yearListSelectorColor="#00B8CDEC" android:headerBackground="@android:color/holo_blue_dark"
+            android:dayOfWeekBackground="#00C41616"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Установить дату"
+            android:id="@+id/btn"/>
+
+</LinearLayout>
